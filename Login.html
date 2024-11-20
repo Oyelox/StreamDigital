@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Trabaja con nosotros</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <div class="ContainerMain">
+        <nav>
+            <img src="./images/logo1.png" alt="Logo">
+            <a href="./Cuentas.html">Inicio</a>
+            <a href="./Soporte.html">Soporte Técnico</a>
+            <a href="./Login.html">¿Quieres Trabajar con Nosotros?</a>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="form-container">
+            <h2>Iniciar Sesión</h2>
+            <form id="login-form">
+                <label for="login-email">Correo:</label>
+                <input type="email" id="login-email" placeholder="Correo electrónico" required>
+                
+                <label for="login-password">Contraseña:</label>
+                <input type="password" id="login-password" placeholder="Contraseña" required>
+                
+                <button type="submit">Iniciar Sesión</button>
+            </form>
+
+            <div class="info-section">
+                <h3>REQUISITOS</h3>
+                <div class="info-box">
+                    <p>SOLO CON TU CELULAR O PC.</p>
+                    <p>SOLO NECESITAS CONTACTOS.</p>
+                </div>
+                <h3>BENEFICIOS</h3>
+                <div class="info-box">
+                    <p>ADEMÁS TE OFRECEMOS LOS MÉTODOS QUE USAMOS.</p>
+                    <p>TE BRINDAMOS PUBLICIDAD.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <p class="no-account">¿No tienes cuenta?</p>
+            <h2>Registrarse</h2>
+            <form id="register-form">
+                <label for="register-name">Nombre:</label>
+                <input type="text" id="register-name" placeholder="Nombre" required>
+
+                <label for="register-surname">Apellido:</label>
+                <input type="text" id="register-surname" placeholder="Apellido" required>
+
+                <label for="register-birthday">Fecha de Nacimiento:</label>
+                <input type="date" id="register-birthday" required>
+
+                <label for="register-email">Correo:</label>
+                <input type="email" id="register-email" placeholder="Correo electrónico" required>
+
+                <label for="register-phone">Número de Teléfono:</label>
+                <input type="tel" id="register-phone" placeholder="Número de teléfono" required>
+
+                <label for="register-password">Contraseña:</label>
+                <input type="password" id="register-password" placeholder="Contraseña" required>
+
+                <label for="register-confirm-password">Confirmar Contraseña:</label>
+                <input type="password" id="register-confirm-password" placeholder="Confirmar contraseña" required>
+                
+                <button type="submit">Registrarse</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
